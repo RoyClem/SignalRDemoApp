@@ -5,7 +5,6 @@ const initialState = {
 export default function counterReducer(state = initialState, action) {
     switch (action.type) {
         case 'UPDATE_COUNT':
-            state.count = action.data;
             return Object.assign({}, { count: action.data });
         default:
             return state;

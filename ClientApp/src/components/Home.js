@@ -27,7 +27,7 @@ function mapStateToProps(state) {
 // and values should be action creator functions.
 // They get bound to `dispatch`.
 const mapDispatchToProps = {
-    updateCount
+  //  updateCount
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
